@@ -1,6 +1,6 @@
-number = document.getElementById('number');
-convertBtn = document.getElementById('convert-Btn');
-output = document.getElementById('output');
+const number = document.getElementById('number');
+const convertBtn = document.getElementById('convert-btn');
+const output = document.getElementById('output');
 
 
 const Roman =[
@@ -51,7 +51,7 @@ const checkNumber = (e)=>{
 
     e.preventDefault();
     console.log(number)
-    value = parseInt(number.value);
+    const value = parseInt(number.value);
     console.log(value);
     if(!value || isNaN(parseInt(value))){
         
